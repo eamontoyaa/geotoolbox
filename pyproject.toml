@@ -34,3 +34,4 @@ Issues = "https://github.com/eamontoyaa/geotoolbox/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
+include = ["geotoolbox*"]
