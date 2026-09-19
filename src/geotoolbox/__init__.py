@@ -3,21 +3,18 @@ geotoolbox: A collection of tools for geospatial, geotechnical, and statistical
 data processing and modelling.
 """
 
-__version__ = "0.1.0"
-__author__ = "Exneyder A. Montoya-Araque"
+__version__ = "0.2.0"
 
-from . import fragility_lognormal
-from . import probpropagation
+from . import fragility
+from . import probability
 from . import pytrigrs
-from . import spatialtools
-from . import suprocessing
+from . import sig_helper
 from . import flowpy
 
 __all__ = [
-    "fragility_lognormal",
-    "probpropagation",
+    "fragility",
+    "probability",
     "pytrigrs",
-    "spatialtools",
-    "suprocessing",
+    "sig_helper",
     "flowpy",
 ]
